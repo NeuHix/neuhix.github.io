@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sachin">
+    <meta name="description" content="Contact form of the encyclopedia galactica.">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="images/contact-icon.png" type="image/x-icon">
+    
+</head>
+<body>
+    <a href="index.html" style="text-decoration: none; color: blue; font-family: 'Franklin Gothic Medium';" ><h2><img src="images/Picture1.png" alt="M31" title="M31_Hubble" width="50" height="50" style="text-align: left">E n c y c l o p e d i a   &nbsp;  &nbsp;    G a l a c t i c a</h2></a>  <!-- Organisation Reference -->
+            
+            <h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The official repository of all knowledge and wisdom of the galaxy.</h5> <!-- Principle and Wisdom -->
+            
+            <hr>
+
+             <nav> <!-- Navigate through this webpage -->
+                <ul>
+                    <li><a href="index.html#explore" style="text-decoration: none; color: blueviolet;"  >Explore</a> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;   <a href="contact.html" style="text-decoration: none; color: blueviolet;">Contact</a>  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;   <a href="about.html" style="text-decoration: none; color: blueviolet;">About</a> &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;   <a href="faqs.html" style="text-decoration: none; color: blueviolet;">Help!</a></li>
+                </ul>
+            </nav>  
+            <hr>
+
+            <form action="https://httpbin.com/post" method="post">
+                <h3>Contact with Care</h3>
+
+                <fieldset>
+                    <legend>Contact with Care</legend>
+                    
+                    <p>
+                        <label for="Gal_Planet">Tell us your Galactic Planet ID or Name if it's recognized/popular &nbsp;</label>
+                        <input type="text" name="Gal_planet_id" id="Gal_Planet" placeholder="0923x-234-45" required>
+                    </p>
+                    <p>
+                        <label for="Species">Tell us your USI (Unique Species Identifier) &nbsp;</label>
+                        <input type="text" name="USI" id="Species" placeholder="ANFXXK@23RG" required>
+                    </p>
+                    <p>
+                        <label for="SIN">Tell us your SIN (Species Identifier Number) &nbsp;</label>
+                        <input type="text" name="Species_identifier_number" id="SIN" placeholder="planet:#species@3445" required>
+                    </p>
+                    <p>
+                        <label for="email">Tell us your Unik Planetary Email &nbsp;</label>
+                        <input type="text" name="UPE" id="email" placeholder="email address" required>
+                    </p>
+
+                </fieldset>
+                <br>
+                    <fieldset>
+                        <legend>Feedback</legend>
+                        <textarea name="feedback" id="Feedback" cols="90" rows="10" placeholder="If you're so amazingly primitive enough that you can't give a feedback, Contact your Local Galactic Government"></textarea>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Complete!</button>
+                    <button type="reset">Reset</button>
+                    
+            </form>
+</body>
+</html>

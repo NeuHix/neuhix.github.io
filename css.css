@@ -1,0 +1,26 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+th, td, caption, figure {
+    border: 2px solid #333;
+    font-family: monospace;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+fieldset {
+    border: 2px solid #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
