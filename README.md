@@ -3,7 +3,7 @@
 
 Official Repository of All Knowledge and Wisdom of the Galaxy.
 
-This [website](https://neuhix.github.io) will is available on the internet.
+This [website](https://neuhix.github.io)  is available on the internet.
 
 
 
