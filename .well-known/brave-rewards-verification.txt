@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: neuhix.github.io
+Token: b2adcf18cd2be1b008df33e1426b0910940798a34f715ff32c6bfb20375d08c4
